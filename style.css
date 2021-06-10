@@ -1,0 +1,20 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(red, transparent),
+		linear-gradient(to top left, lime, transparent),
+			linear-gradient(to top right, blue, transparent);
+	background-blend-mode: screen;
+	font-family: sans-serif;
+	letter-spacing: -0.03em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: white;
+}
